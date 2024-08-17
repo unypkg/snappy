@@ -77,6 +77,9 @@ get_include_paths
 
 unset LD_RUN_PATH
 
+export CFLAGS="-O2 -fPIC"
+export CXXFLAGS="${CFLAGS}"
+
 mkdir build
 cd build || exit
 
